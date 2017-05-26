@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thinktecture/api-summit-2017-apis-at-home.git"
+    "url": "git+https://github.com/pjaegerhh/api-summit-2017-apis-at-home"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thinktecture/api-summit-2017-apis-at-home/issues"
+    "url": "https://github.com/pjaegerhh/api-summit-2017-apis-at-home/issues"
   },
-  "homepage": "https://github.com/thinktecture/api-summit-2017-apis-at-home#readme",
+  "homepage": "https://github.com/pjaegerhh/api-summit-2017-apis-at-home#readme",
   "engines": {
     "node": ">=7.*"
   },
