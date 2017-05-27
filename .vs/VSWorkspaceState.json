@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\alexa-skill",
-    "\\assets"
+    "\\assets",
+    "\\azure-api",
+    "\\azure-api\\controllers",
+    "\\azure-api\\controllers\\ev3"
   ],
-  "SelectedNode": "\\alexa-skill\\intents.json",
+  "SelectedNode": "\\alexa-skill\\index.js",
   "PreviewInSolutionExplorer": false
 }

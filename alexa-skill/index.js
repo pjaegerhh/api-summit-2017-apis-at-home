@@ -2,6 +2,7 @@
 
 const Alexa = require('alexa-sdk'),
     request = require('request');
+    
 
 const APP_ID = process.env.APP_ID;
 
@@ -25,7 +26,7 @@ const languageStrings = {
     }
 };
 
-const baseUrl = 'http://api-summit-2017-apis-at-home.azurewebsites.net/';
+const baseUrl = 'http://csev3lego.azurewebsites.net/';
 
 const clawOperationValueMap = {
     'schließen': 'close',
@@ -98,8 +99,8 @@ const handlers = {
     },
 };
 
-exports.handler = function (event, context) {
-    const alexa = Alexa.handler(event, context);
+exports.handler = function (event, context, callback) {
+    const alexa = Alexa.handler(event, context, callback);
     alexa.APP_ID = APP_ID;
     alexa.resources = languageStrings;
     alexa.registerHandlers(handlers);

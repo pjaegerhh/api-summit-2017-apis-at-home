@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "Task-alexa-skill",
+      "appliesTo": "alexa-skill/",
+      "type": "command"
+    },
+    {
+      "taskName": "Task-alexa-skill",
+      "appliesTo": "alexa-skill/",
+      "type": "command"
+    }
+  ]
+}

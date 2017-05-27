@@ -15,7 +15,7 @@ assert ts.connected, "Connect a touch sensor to any port"
 
 ev3.Sound.set_volume(100)
 
-socket = SocketIO('http://api-summit-2017-apis-at-home.azurewebsites.net')
+socket = SocketIO('http://csEV3Lego.azurewebsites.net')
 
 def onDoItDudeCommand(command):
     print('DO IT DUDE')
